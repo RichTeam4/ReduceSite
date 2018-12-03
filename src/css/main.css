@@ -55,6 +55,18 @@ textarea {resize: none;}
   font-style: normal;
   font-family: 'Montserrat', sans-serif;
 }
+
+.iframe-shadow {
+    margin: 25px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 25px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+}
 /*==============================
       // Nav-bar Styles //
 ==============================*/
