@@ -16,11 +16,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/main.css">
-
 </head>
 
 <body>
-
   <!-- Modal -->
   <!-- List of sources/citations of resources used through the site-->
   <div class="modal fade" id="sourceModal" tabindex="-1" role="dialog" aria-labelledby="sourceModalTitle" aria-hidden="true">
@@ -33,7 +31,7 @@
           </button>
         </div>
         <div class="modal-body">
-        <!-- Template/Code sources -->
+          <!-- Template/Code sources -->
           <h5 class="mt-3 mb-3">Template/Code</h5>
           <ul class="list-group">
             <li>
@@ -110,7 +108,10 @@
               <a class="nav-link" href="store.html">store</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="connect.html">connect</a>
+              <a class="nav-link" href="#photos">photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#connect">connect</a>
             </li>
           </ul>
         </div>
@@ -247,17 +248,17 @@
             <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="image-one">
-                  <img src="images/blog-1b.jpg" alt="" class="img-thumbnail blog-1">
+                  <img src="images/blog_imgs/blog_1.jpg" alt="" class="img-thumbnail blog-1">
                   <div class="text-block">
-                    <h4><a href="blog_single.html">music</a></h4>
+                    <h4><a href="blog_1.html">jan 1</a></h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="blog-column1">
-                  <h5><a href="blog_single.html">My recent concert experience</a></h5>
+                  <h5><a href="blog_1.html">My recent concert experience</a></h5>
                   <p>The worst advice about music you could ever give someone would be...</p>
-                  <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+                  <a class="btn btn-primary" href="blog_1.html" role="button">More >></a>
                 </div>
               </div>
             </div>
@@ -266,17 +267,17 @@
             <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="image-one">
-                  <img src="images/blog-2c.jpg" alt="" class="img-thumbnail blog-1">
+                  <img src="images/blog_imgs/blog_2.jpg" alt="" class="img-thumbnail blog-1">
                   <div class="text-block">
-                    <h4><a href="blog_single.html">Life</a></h4>
+                    <h4><a href="blog_2.html">feb 2</a></h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="blog-column1">
-                  <h5><a href="blog_single.html">Spent some time in the mountains</a></h5>
+                  <h5><a href="blog_2.html">Spent some time in the mountains</a></h5>
                   <p>I recently spent five days in the Canadian Rockies and made a few mistakes...</p>
-                  <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+                  <a class="btn btn-primary" href="blog_2.html" role="button">More >></a>
                 </div>
               </div>
             </div>
@@ -287,17 +288,17 @@
             <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="image-one">
-                  <img src="images/blog-1c.jpg" alt="" class="img-thumbnail blog-1">
+                  <img src="images/blog_imgs/blog_3.jpg" alt="" class="img-thumbnail blog-1">
                   <div class="text-block">
-                    <h4><a href="blog_single.html">music</a></h4>
+                    <h4><a href="blog_3.html">mar 3</a></h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="blog-column1">
-                  <h5><a href="blog_single.html">New tour dates announced</a></h5>
+                  <h5><a href="blog_3.html">New tour dates announced</a></h5>
                   <p>Today is the day that you've all been waiting for! New tour dates...</p>
-                  <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+                  <a class="btn btn-primary" href="blog_3.html" role="button">More >></a>
                 </div>
               </div>
             </div>
@@ -306,19 +307,20 @@
             <div class="row">
               <div class="col-lg-6 col-md-12">
                 <div class="image-one">
-                  <img src="images/blog-2.jpg" alt="" class="img-thumbnail blog-1">
+                  <img src="images/blog_imgs/blog_4.jpg" alt="" class="img-thumbnail blog-1">
                   <div class="text-block">
-                    <h4><a href="blog_single.html">life</a></h4>
+                    <h4><a href="blog_4.html">apr 4</a></h4>
                   </div>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
                 <div class="blog-column1">
-                  <h5><a href="blog_single.html">Balancing my life while on the road</a></h5>
+                  <h5><a href="blog_4.html">Balancing my life while on the road</a></h5>
                   <p>Being on the road 80% of the year, this is how I keep a healthy balance...</p>
-                  <a class="btn btn-primary" href="blog_single.html" role="button">More >></a>
+                  <a class="btn btn-primary" href="blog_4.html" role="button">More >></a>
                 </div>
               </div>
+              <span id="photos"></span>
             </div>
           </div>
         </div>
@@ -326,83 +328,107 @@
     </section>
 
     <!-- Photo gallery carousel -->
-    <section class="portfolio container">
+    <section class="portfolio container" style="margin-top: 75px;">
       <div class="gradient"></div>
-      <div class="">
-        <div class="main-content">
-          <div class="row">
-            <div class="col-lg-12 heading">
-              <h3>Jillians Photo Gallery</h3>
-              <h4>a picture is worth a thousand words</h4>
-            </div>
+      <div class="main-content">
+        <div class="row">
+          <div class="col-lg-12 heading">
+            <h3>Jillians Photo Gallery</h3>
+            <h4>a picture is worth a thousand words</h4>
           </div>
-          <div class="row">
-            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-              <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-                  <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-4.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="carousel-item">
-                  <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-3.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="carousel-item">
-                  <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-2.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="carousel-item">
-                  <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-1.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="carousel-item">
-                  <a href="images/portfolio4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-4.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
-                <div class="carousel-item">
-                  <a href="images/portfolio3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="d-block col-sm-4 col-12 box">
-                    <img src="images/portfolio-3.jpg" class="img-fluid">
-                    <div class="overlay">
-                      <img src="images/plus-img.png" alt="plus-icon">
-                      <div class="text">Jillian Redüce</div>
-                    </div>
-                  </a>
-                </div>
+        </div>
+        <div class="row">
+          <div id="galleryCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+              <div class="carousel-item active">
+                <a href="images/photo_gallery/photo-1.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-1.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon">
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="carousel-item">
+                <a href="images/photo_gallery/photo-2.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-2.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon" />
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/photo_gallery/photo-3.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-3.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon" />
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/photo_gallery/photo-4.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-4.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon" />
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/photo_gallery/photo-5.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-5.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon" />
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="images/photo_gallery/photo-6.jpg" data-toggle="lightbox" class="d-block col-sm-4 col-12 box">
+                  <img src="images/photo_gallery/photo-6.jpg" class="img-fluid" />
+                  <div class="overlay">
+                    <img src="images/photo_gallery/plus-img.png" alt="plus-icon" />
+                    <div class="text">Jillian Redüce</div>
+                  </div>
+                </a>
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+              <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+              <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect with Jillian (Social Media) -->
+    <section id="connect">
+      <div class="container">
+        <h3 class="connect-h3">CONNECT WITH JILLIAN</h3>
+        <div style="margin: 15px;">
+          <h5 id="sm-text">&nbsp;</h5>
+        </div>
+        <div class="row">
+          <div class="col-md-12" data-aos="fade-up" data-aos-duration="600" style="margin: 50px 0px 100px 0px;">
+            <a href="https://www.facebook.com/cma/" target="_blank"><i class="fa fa-facebook-square fa-3x sm-icons"
+                onmouseover="socialMediaText('KEEP UP WITH JILLIAN ON FACEBOOK')"></i></a>
+            <a href="https://twitter.com/countrymusic" target="_blank"><i class="fa fa-twitter-square fa-3x sm-icons"
+                onmouseover="socialMediaText('READ JILLIAN\'S LATEST TWEETS')"></i></a>
+            <a href="https://www.instagram.com/cma/?hl=en" target="_blank"><i class="fa fa-instagram fa-3x sm-icons"
+                onmouseover="socialMediaText('SEE JILLIAN\'S LATEST POSTS ON INSTAGRAM')"></i></a>
+            <a href="https://www.youtube.com/channel/UCntcoAXT8C__ofmnKQGpmdg" target="_blank"><i class="fa fa-youtube fa-3x sm-icons"
+                onmouseover="socialMediaText('WATCH JILLIAN\'S YOUTUBE VIDEOS')"></i></a>
+            <a href="https://open.spotify.com/user/redmusiccompany/playlist/3U25AXqlklo3o6LqM1wX1I?si=m-YiAiuuTfWuhY5ywvrP3w"
+              target="_blank"><i class="fa fa-spotify fa-3x sm-icons" onmouseover="socialMediaText('LISTEN ON SPOTIFY')"></i></a>
+            <a href="http://jillianreduce.proboards.com/" target="_blank"><i class="fa fa-comment fa-3x sm-icons"
+                onmouseover="socialMediaText('VISIT AND INTERACT ON THE FAN FORUM')"></i></a>
           </div>
         </div>
       </div>
@@ -456,7 +482,10 @@
                 <a href="store.html">store</a>
               </li>
               <li>
-                <a href="connect.html">connect</a>
+                <a href="#photos">photos</a>
+              </li>
+              <li>
+                <a href="#connect">connect</a>
               </li>
             </ul>
 
@@ -507,7 +536,6 @@
     </footer>
     <!-- Footer -->
 
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"></script>
@@ -534,6 +562,10 @@
 
       var header = document.getElementById("myHeader");
       var sticky = header.offsetTop;
+
+      function socialMediaText(text) {
+        document.getElementById('sm-text').innerHTML = text;
+      }
 
       function myFunction() {
         if (window.pageYOffset > sticky) {

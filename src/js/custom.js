@@ -8,7 +8,7 @@
     }
     });
 
-$('#recipeCarousel').carousel({
+$('#galleryCarousel').carousel({
   interval: 5000
 })
 
