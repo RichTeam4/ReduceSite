@@ -68,6 +68,14 @@ video {
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
 }
 
+.bold {
+    font-weight: 800;
+}
+
+.modal-title {
+    font-size: 1.1em;
+}
+
 /*==============================
       // Nav-bar Styles //
 ==============================*/
@@ -128,7 +136,7 @@ select {
 .top-container .col2 .fa-vimeo {background: #00aeef;}
 .top-container .col2 .fa-google-plus {background: #ffa500;}
 /*==============================
-      // carousel Styles //
+      // Carousel Styles //
 ==============================*/
 header .carousel {margin-top: -177px;}
 header .carousel-item img {
