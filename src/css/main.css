@@ -76,6 +76,16 @@ video {
     font-size: 1.1em;
 }
 
+.sm-text {
+    font-size: 1.4em;
+}
+
+.shopping-bag {
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
 /*==============================
       // Nav-bar Styles //
 ==============================*/
@@ -913,7 +923,7 @@ textarea.form-control {
     text-transform: capitalize;
 }
 .form-control:focus {background-color: transparent;border-color: #acacac;box-shadow: none;}
-.connect-h3 {font-size: 34px;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
+.connect-h3 {font-size: 2.4em;font-weight: 700;letter-spacing: -1.5px;padding-bottom: 15px;}
 
 /*==============================
       // blog_single Styles //
@@ -1227,11 +1237,11 @@ textarea.form-control {
     header .carousel-item img {height:800px;}
 }
 /*== 1024px Media Queries Styles ==*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
     .navbar {padding: 30px 0;}
     .navbar-expand-lg .navbar-nav li:after{top: 0px;}
     .sticky {padding: 15px 0;}
-    .navbar-expand-lg .navbar-nav .nav-link{font-size: 12px;}
+    .navbar-expand-lg .navbar-nav .nav-link{font-size: 0.9em; padding: 0;}
     header .carousel-item img {height: 640px;}
     header .carousel-item h3{font-size: 16px;padding: 15px 40px;letter-spacing: 0.5px; padding-bottom: 15px;}
     header .carousel-caption {width: 75%;} 
@@ -1316,9 +1326,9 @@ textarea.form-control {
     .services .image {width: 100%;height: 300px;margin-bottom: 30px;margin-right: 0;}
     .portfolio .overlay {height: 89.2%;width: 100%;}
 }
-/*== 768px Media Queries Styles ==*/
-@media screen and (max-width: 768px) {
-    .navbar {padding: .5rem 1rem;background: #2cbf84;}
+/*== 768 - 1023px Media Queries Styles ==*/
+@media screen and (max-width: 1023px) {
+    .navbar {padding: .5rem 1rem;background-color: #2cbf84;}
     .navbar-expand-lg .navbar-nav li:after {display: none;}
     .navbar-dark .navbar-nav .active>.nav-link {background:transparent; }
     .navbar-nav .nav-link {padding: .5rem 1rem;}
@@ -1327,11 +1337,11 @@ textarea.form-control {
     .navbar-expand-lg .navbar-nav .nav-link {padding: 0.4em 0;}
     .navbar-expand-lg .navbar-nav li {padding: 0;}
     .navbar-collapse {padding-top: 10px;}
-    /* .navbar-brand {font-size: 1em;} */
+    .navbar-brand h1 {font-size: 1.6em;}
     header .carousel-control-next, .carousel-control-prev {top: 20%;}
     header .carousel-caption {top: 70%;}
     header .carousel-item h3 {font-size: 14px;padding: 15px 30px;}
-    header .carousel-item h1 {font-size: 32px;}
+    header .carousel-item h1 {font-size: 1.8em;}
     header .carousel-item h2 {font-size: 18px;}
     header .carousel-item h5 {font-size: 12px;line-height: 20px;}
     .about .heading h3 {font-size: 18px;letter-spacing: 0;padding-bottom: 5px;}
@@ -1347,11 +1357,11 @@ textarea.form-control {
     .about .box1 {padding-top: 20px;height: auto;}
     .about .col1, .about .col2, .about .col3 {height: auto;}
     .blog {padding-top: 60px;padding-bottom: 40px;}
-    .blog .heading h3 {font-size: 18px;letter-spacing: 0;padding-bottom: 5px;}
+    .blog .heading h3 {font-size: 1.6em;letter-spacing: 0;padding-bottom: 5px;}
     .blog .img-thumbnail {height: 200px;margin-bottom: 20px;}
     .blog .row:nth-child(2) {padding-bottom: 40px;}
     .blog .text-block h4 {padding: 9px 0;font-size: 12px;}
-    .portfolio .heading h3 {font-size: 19px;letter-spacing: 0.5px;}
+    .portfolio .heading h3 {font-size: 1.6em;letter-spacing: 0;}
     .portfolio .heading h4 {font-size: 12px;letter-spacing: 0.5px;}
     .portfolio .card-deck .card .img-fluid {height: 200px;}
     .portfolio {padding-top: 20px;padding-bottom: 30px;margin-bottom: 20px;}
@@ -1388,6 +1398,7 @@ textarea.form-control {
     #blog-page .img-thumbnail {height: 200px;}
     #blog-page .text-block h4 {padding: 11px 3px;}
     #blog-page .blog-heading2 a {font-size: 13px;}
+    #portfolio h2 {font-size: 1.8em;}
     .portfolio .box .img-fluid {height: 200px;}
     .services .inner-content {border: none;padding: 20px;}
     .services h2 {font-size: 1.1em;margin-bottom: 10px;}
@@ -1399,6 +1410,8 @@ textarea.form-control {
     .portfolio .text {font-size: 12px;}
     .portfolio .overlay img {width: 50px;}
     #portfolio .overlay {height: 88%;width: 87.5%;}
+    .sm-text {font-size: 1.1em;}
+    .connect-h3 {font-size: 1.6em; font-weight: 600; letter-spacing: 0; margin-top: -55px;}
 }
 /*== 425px Media Queries Styles ==*/
 @media screen and (max-width: 425px) {
@@ -1439,6 +1452,7 @@ textarea.form-control {
     #contact .form-group {margin-bottom: 0;}
     #contact .btn-primary {height: 46px;font-size: 12px;width: 135px;}
     #contact {padding-bottom: 10px;}
+    .blog .heading h3 {font-size: 1.2em;}
     .blog-page h2 {font-size: 22px;}
     .blog-page .pages .btn-primary {font-size: 12px;width: 132px;margin-right: 5px;}
     .blog-page {padding-top: 30px;padding-bottom: 60px;}
@@ -1451,12 +1465,13 @@ textarea.form-control {
     #blog-page p {font-size: 12px;}
     .portfolio .carousel-control-prev {left: 0;}
     .portfolio .carousel-control-next {right: 0;}
-    .portfolio .heading h3 {font-size: 18px;}
+    .portfolio .heading h3 {font-size: 1.2em;}
     .portfolio .heading h4 {line-height: 18px;}
     .portfolio .main-content {padding-left: 0;padding-right: 0;}
     .portfolio .box .img-fluid {height: 250px;}
     .portfolio .fa {padding: 6px 9px;background: #000000a3;}
     .portfolio .carousel-control-next, .carousel-control-prev {color: #fff;}
+    #portfolio h2 {font-size: 1.6em;}
     #portfolio h4 {font-size: 12px;line-height: 24px;}
     .services .image {height: 200px;}
     .services h2 {font-size: 1.1em;margin-bottom: 10px;}
@@ -1474,12 +1489,14 @@ textarea.form-control {
     #portfolio .overlay img {width: 15%;}
     .Subscribe .main {padding: 20px 0;margin: 0;}
     #blog-page .social-links li {width: 84px;margin-right: 0px;}
+    .sm-text {font-size: 0.9em;}
+    .connect-h3 {font-size: 1.2em; font-weight: 600; margin-top: -55px;}
 }
 /*== 375px Media Queries Styles ==*/
 @media screen and (max-width: 375px) {
-    .navbar-brand h1 {font-size: 1.5em;}
+    .navbar-brand h1 {font-size: 1.3em;}
     .top-container .col2 .fa {width: 25px;height: 25px;padding: 7px 0;}
-    header .carousel-item h1{font-size: 16px;}
+    header .carousel-item h1{font-size: 1.2em;}
     header .carousel-item h2 {font-size: 12px;padding-bottom: 10px;letter-spacing: 0px;}
     header .carousel-item img {height: 520px;}
     footer .footer-copyright p {padding: 10px 5px;margin-bottom: 0;}
